@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tech Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Debby — a Tech Enthusiast</h1>
+    <p id="greeting"></p>
+  </header>
+
+  <main>
+    <section id="bio">
+      <img src="C:\Users\PASSIEH M\Downloads\WhatsApp Image 2025-04-24 at 2.03.56 PM.jpeg"width="800" height="600" alt="Profile Picture" class="profile-pic">
+      <h2>About Me</h2>
+      <p>I'm a computer science student passionate about web development, AI, and building cool tech solutions. I enjoy coding, learning new tools, and collaborating on open-source projects.</p>
+      <button onclick="expandBio()">Read More</button>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python & Django</li>
+        <li>Git & GitHub</li>
+        <li>React (Basics)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> Built with HTML, CSS, and vanilla JS</li>
+        <li><strong>Weather App:</strong> Consumes open weather API with JS</li>
+      </ul>
+    </section>
+
+    <section id="subscribe">
+      <h2>Subscribe to My Newsletter</h2>
+      <form id="subscribeForm" onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <button type="submit">Subscribe</button>
+        <p id="formMessage" class="error"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Debby Tech | Made with 💻</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

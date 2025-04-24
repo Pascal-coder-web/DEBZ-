@@ -1,0 +1,89 @@
+
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header, footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  /* Box model applied to sections */
+  section {
+    background-color: #a84f4f;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 20px; /* Space between boxes */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Class selector example */
+  .profile-pic {
+    width: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+    border: 2px solid #007bff;
+    padding: 5px;
+  }
+  
+  /* Id selector example */
+  #greeting {
+    font-size: 1.2em;
+    color: #17a2b8;
+    margin-top: 10px;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Box model: include padding & border in total width */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  
